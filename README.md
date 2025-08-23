@@ -1,11 +1,9 @@
 
 # ☯️ CAARMA: Class Augmentation with Adversarial Mixup Regularization
 
----
-
 ## Abstract
 
-> Speaker verification is a typical zero-shot learning task, where inference of unseen classes is performed by comparing embeddings of test instances to known examples. Models must naturally generate embeddings that **cluster same-class instances compactly while maintaining separation across classes**.  
+Speaker verification is a typical zero-shot learning task, where inference of unseen classes is performed by comparing embeddings of test instances to known examples. Models must naturally generate embeddings that **cluster same-class instances compactly while maintaining separation across classes**.  
 However, real-world speaker datasets often lack the **class diversity** required to generalize effectively.  
 
 We introduce **CAARMA**, a class augmentation framework that:
