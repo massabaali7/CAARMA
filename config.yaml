@@ -1,0 +1,31 @@
+model: "MFA-CONFORMER" #"ECAPA" #"MFA-CONFORMER" #ECAPA, MFA-CONFORMER, RAWNET3, SKA_TDNN, ECAPA-LARGE etc. (Add)
+features: "FBank_New" #FBank, MFCC SpeechTokenizer, FBank_New, waveform, featNone
+augmentations: {
+  add_noise: False,
+  add_reverb: False,
+  drop_freq: False,
+  drop_chunk: False,
+
+}
+dataset: "voxceleb_full.csv"
+USE_WANDB: True 
+criterion: 'AMSoftmaxGAN' #'AMSoftmaxGAN' #'AMSoftmaxGAN' #'Softmax' #'AMSoftmax'
+init_lr: 0.001
+epochs: 30 
+weight_decay: 0.0000001 
+trial_path: "./VoxCeleb1/veri_test.txt"
+root: "./wav/"
+warmup_step: 2000
+batch_size: 200
+num_workers: 40
+second: 3
+do_augmentation: False
+num_spk: 7323
+mixup: True
+embedding_dim: 192 
+checkpoint_path: "None" 
+save_dir: "caarma_mfa_ckpts" 
+title: "caarma_mfa"  
+
+
+# ECAPA-LARGE WAS USED 
