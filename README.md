@@ -73,7 +73,7 @@ If you find this useful in your research, please cite us:
 ```bibtex
 @misc{CAARMA,
   title = {CAARMA: Class Augmentation with Adversarial Mixup Regularization},
-  author = {Massa Baali and Syed Abdul Hannan and Xiang Li and Hao Chen and Rita Singh and Bhiksha Raj},
+  author = {Massa Baali and Xiang Li and Hao Chen and Syed Abdul Hannan and Rita Singh and Bhiksha Raj},
   year={2025},
   eprint={2503.16718},
   archivePrefix={arXiv},
