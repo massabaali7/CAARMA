@@ -1,0 +1,14 @@
+asteroid_filterbanks==0.4.0
+librosa==0.10.0
+numpy==1.22.0
+pandas==1.5.3
+pytorch_lightning==2.5.0.post0
+PyYAML==6.0.2
+PyYAML==6.0.2
+scikit_learn==1.7.1
+scipy==1.16.1
+soundfile==0.12.1
+speechbrain==1.0.3
+torch==2.1.2
+torchaudio==2.1.2
+transformers==4.47.1
