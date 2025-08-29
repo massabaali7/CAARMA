@@ -1,5 +1,5 @@
 
-# ☯️ CAARMA: Class Augmentation with Adversarial Mixup Regularization
+# CAARMA: Class Augmentation with Adversarial Mixup Regularization
 
 ## Abstract
 
